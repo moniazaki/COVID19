@@ -1,0 +1,1340 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'PT Sans', sans-serif;
+}
+/* =======================Header============================= */
+header{
+    position:fixed;
+    width:100%;
+    background-color: white;
+    
+}
+
+nav .container{
+    width:90%;
+    margin:auto;
+}
+nav .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 0px;
+}
+nav .row .logo{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Asap', sans-serif;
+    color:black
+}
+nav .row .logo .first {
+    color: rgb(51, 51, 145);
+}
+nav .row .bars{
+    display: none;
+    padding:15px;
+    font-size: 20px;
+    color: rgb(51, 51, 145);
+}
+nav .row  .nav-link ul{
+    display: flex;
+    list-style-type: none;
+}
+nav .row  .nav-link ul li{
+    padding:10px;
+    margin-right: 20px;
+}
+nav .row  .nav-link ul li a {
+    color: rgb(58, 58, 169);
+    text-decoration: none;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+nav .row  .nav-link ul li a:hover{
+    cursor: pointer;
+}
+nav .row  .nav-link ul  .btn1 {
+    margin-top:15px;
+    background-color:rgb(58, 58, 169) ;
+    border:1px solid rgb(58, 58, 169) ;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+nav .row  .nav-link ul  .btn1:hover {
+    background-color:rgb(57, 57, 232) ;
+    color:white;
+    cursor: pointer;
+} 
+/* =======================Home============================= */
+main #home{
+        background-image: url(../images/header.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+}
+main #homes .container{
+    width: 90%;
+    margin: auto;
+
+}
+main #homes .container .row{
+    display: flex;
+    justify-content: center;
+}
+main #homes .container .row  .img{
+    width:40%;
+    margin-top: 40px;
+    padding:25px 15px
+}
+main #homes .container .row   .img img{
+    width:100%;
+}
+main #homes .container .row  .section1 {
+    display: flex;
+    flex-wrap: wrap;
+    width:40%;
+    margin-top:25px ;
+}
+main #homes .container .row  .section1 h2{
+    margin-top: 20%;
+    color: rgb(51, 51, 145);
+    font-size: 50px;
+    font-weight: 900;
+}
+main #homes .container .row  .section1 .header-row1{
+    margin-top:15%;
+    text-align: center;
+}
+main #homes .container .row  .section1 .header-row1 h3{
+    color: red;
+    font-weight: 900;
+    font-size: 40px;
+
+}
+main #homes .container .row  .section1 .header-row1 h4{
+    color: rgb(51, 51, 145);
+    margin-top: 15px;
+    font-weight: 900;
+    font-size: 40px;
+}
+main #homes .container .row  .section1 .header-row3{
+    margin-bottom: 25px;
+    width:100%
+}
+main #homes .container .row  .section1 .header-row3 a{
+    padding: 25px;
+    /* margin-right:40px ; */
+    text-decoration: none;
+    color: rgb(58, 58, 169);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    width:50%;
+}
+
+main #homes .container .row  .section1 .header-row3 button{
+    font-size: 20ox;
+    margin-top:15px;
+    background-color:rgb(58, 58, 169) ;
+    border:1px solid rgb(58, 58, 169) ;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    width:30%;
+}
+main #homes .container .row  .section1 .header-row3  button:hover {
+    background-color:rgb(57, 57, 232) ;
+    color:white;
+    cursor: pointer;
+} 
+main #homes .container .row  .section1 .header-row3  a:hover{
+    text-decoration:underline
+}
+main #homes .container .row  .section1 .header-row4 .row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+main #homes .container .row  .section1 .header-row4 .row .p1{
+    color:rgb(159, 156, 156);
+    text-align: center;
+    margin-bottom: 15px;
+    width:50%;
+}
+
+main #homes .container .row  .section1 .header-row4 .row .p2 {
+    width:50%;
+    font-weight: 400;
+    margin-bottom: 25px;
+    text-align: center;
+}
+main #homes .container .row  .section1  .p3{
+    color:rgb(159, 156, 156);
+    font-size: 20px;
+    font-weight: 400;
+}
+/* ======================About-Corona============================= */
+main #section-1 .container{
+    width: 90%;
+    margin: auto;
+}
+main #section-1 .container .row{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+main #section-1 .container .row .about{
+    width:55%;
+    padding:0 25px;
+}
+main #section-1 .container .row .about .p4{
+    color: rgb(57, 57, 232);
+    margin-bottom: 15px;
+}
+main #section-1 .container .row .about h4{
+    color:rgb(50, 50, 146);
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+main #section-1 .container .row .about .p5{
+    color:rgb(50, 50, 146);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+main #section-1 .container .row .about p{
+    margin-bottom: 25px;
+    color:rgb(50, 50, 146);
+    font-weight: 400;
+}
+main #section-1 .container .row .second{
+    width:25%;
+    border: 1px solid rgb(192, 192, 192);
+    text-align: center;
+    box-shadow: 2px 2px 5px 2px rgb(183, 182, 182) ;
+}
+main #section-1 .container .row .second h2{
+    padding:15px 0;
+    color:rgb(50, 50, 146);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+main #section-1 .container .row .second div{
+    color: rgb(57, 57, 232);
+    margin-bottom: 10px;
+    padding:15px 0;
+}
+/* =======================Transmission============================= */
+main  #spread{
+    background-color: rgba(247,249,254,255);
+}
+main  #spread #section-2 .container{
+    width: 90%;
+    margin: auto;
+}
+main #spread #section-2 .container .row{
+    text-align: center;
+    margin-top: 30px;
+}
+main #spread #section-2 .container .row h5{
+    padding: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(57, 57, 232);   
+}
+main #spread #section-2 .container .row h2{
+    margin-top: 15px;
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(58, 58, 169);
+}
+main #spread #section-2 .container .row p{
+    margin-top: 15px;
+    font-weight: lighter;
+}
+main  #spread #section-2 .container  .row .third {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+}
+main  #spread #section-2 .container .row .card{
+    width:25%;
+    margin-top: 25px;
+    border: 1px solid rgb(191, 191, 191);
+    text-align: center;
+    padding:25px;
+    margin-right: 15px;
+}
+main  #spread #section-2 .container .row .card img{
+    width:100%;
+    border-bottom: 8px solid #75a3ff;
+}
+main  #spread #section-2 .container .row .card p{
+    font-size: 15px;
+    font-weight: 400;
+}
+main  #spread #section-2 .container .row button{
+    width:35%;
+    font-size: 20ox;
+    margin-top:15px;
+    background-color:rgb(58, 58, 169) ;
+    border:1px solid rgb(58, 58, 169) ;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    
+}
+main  #spread #section-2 .container .row button i{
+    margin-right: 15px;
+}
+main  #spread #section-2 .container .row button:hover {
+    background-color:rgb(57, 57, 232) ;
+    color:white;
+    cursor: pointer;
+} 
+/* =======================Symptoms============================= */
+main  #symptoms #section-3 .container{
+    width: 90%;
+    margin: auto;
+}
+main #symptoms #section-3 .container .row{
+    text-align: center;
+    margin-top: 30px;
+}
+main #symptoms #section-3 .container .row h5{
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(57, 57, 232);   
+}
+main #symptoms #section-3 .container .row h2{
+    /* margin-top: 15px; */
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(58, 58, 169);
+}
+main #symptoms #section-3 .container .row p{
+    margin-top: 15px;
+    font-weight: lighter;
+}
+main  #symptoms #section-3 .container  .row .third {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+}
+main  #symptoms #section-3 .container .row .card{
+    width:30%;
+    height: auto;
+    margin-top: 25px;
+    border: 1px solid rgb(220, 220, 220);
+    text-align: left;
+    padding:60px;
+    /* margin-right: 15px; */
+}
+
+main  #symptoms #section-3 .container .row .card img{
+    width:30%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-left: 60%;
+    
+}
+main  #symptoms #section-3 .container .row .card .p6{
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(57, 57, 232); 
+
+}
+main  #symptoms #section-3 .container .row .card span{
+    font-weight: 700;
+}
+main  #symptoms #section-3 .container .rows{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+main  #symptoms #section-3 .container .rows .fourth i{
+    font-size: 60px;
+    margin-right: 10px;
+    color: rgb(112, 111, 111);
+}
+main  #symptoms #section-3 .container .rows  .fourth{
+    width:50%;
+    display: flex;
+}
+main  #symptoms #section-3 .container .rows  .fourth span{
+    color: rgb(57, 57, 232);   
+    font-size: 20px;
+    font-weight: 700;
+}
+main  #symptoms #section-3 .container .rows .btn3{
+    width:20%;
+    font-size: 20ox;
+    margin-top:15px;
+    background-color:rgb(58, 58, 169) ;
+    border:1px solid rgb(58, 58, 169) ;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+main  #symptoms #section-3 .container .rows button i{
+    margin-right: 15px;
+}
+#symptoms #section-3 .container .rows .btn3:hover {
+    background-color:rgb(57, 57, 232) ;
+    color:white;
+    cursor: pointer;
+} 
+/* =======================Prevention============================= */
+main  #Prevention{
+    background-color: rgba(247,249,254,255);
+}
+
+main  #Prevention #section-4 .container{
+    width: 90%;
+    margin: auto;
+}
+main #Prevention #section-4 .container .row{
+    text-align: center;
+    margin-top: 30px;
+}
+main #Prevention #section-4 .container .row h5{
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(57, 57, 232);   
+}
+main #Prevention #section-4 .container .row h2{
+    /* margin-top: 15px; */
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(58, 58, 169);
+}
+main #Prevention #section-4 .container .row p{
+    margin-top: 15px;
+    font-weight: lighter;
+}
+main  #Prevention #section-4 .container  .row .fifth {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+}
+main  #Prevention #section-4 .container .row .card{
+    width:25%;
+    height: auto;
+    /* margin-top: 25px; */
+    text-align: center;
+    padding:30px;
+}
+
+main  #Prevention #section-4 .container .row .card img{
+    width:40%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+main  #Prevention #section-4 .container .row .card .p7{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(117, 116, 116);
+}
+main  #Prevention #section-4 .container .row .card p{
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(159, 156, 156)
+}
+
+
+main  #Prevention #section-4 .container  .btn2{
+    width:25%;
+    font-size: 20ox;
+    margin-top:15px;
+    background-color:rgb(58, 58, 169) ;
+    border:1px solid rgb(58, 58, 169) ;
+    border-radius: 30px;
+    padding: 20px 20px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    
+}
+main  #Prevention #section-4 .container div{
+    text-align: center;
+    margin-bottom: 25px;
+}
+main  #Prevention #section-4 .container div button i{
+    margin-left: 25px;
+}
+main  #Prevention #section-4 .container div  .btn2:hover {
+    background-color:rgb(57, 57, 232) ;
+    color:white;
+    cursor: pointer;
+}
+main  #Prevention #section-4 .container div a{
+    text-decoration: none;
+}
+main  #Prevention #section-4 .container div a:hover {
+    color:rgb(57, 57, 232) ;
+    cursor: pointer;
+}
+main  #Prevention #section-4 .container .rows{
+    width: 100%;
+    background-color: rgb(255,255,255);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 20%);
+}
+main  #Prevention #section-4 .container .protect{
+    width: 100%;
+    background-color: rgb(255,255,255);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main  #Prevention #section-4 .container .rows h2{
+    text-align: left;
+    margin-left: 25px;
+}
+
+main  #Prevention #section-4 .container .protect .paragraph{
+    width:60%;
+}
+main  #Prevention #section-4 .container .protect .paragraph ul{
+    list-style-type: none;
+}
+main  #Prevention #section-4 .container .protect .paragraph ul{
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+main  #Prevention #section-4 .container .protect .paragraph ul i{
+    color: white;
+    font-size: 18px;
+    background-color: rgb(33, 198, 33);
+    border:1px solid rgb(33, 198, 33);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+main  #Prevention #section-4 .container .protect .paragraph span{
+    font-weight:bold;
+    color: rgb(97, 96, 96);
+}
+main  #Prevention #section-4 .container .protect .paragraph p{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(117, 116, 116);
+}
+main  #Prevention #section-4 .container .protect .img{
+    width:35%;
+}
+main  #Prevention #section-4 .container .protect .img img{
+    width:100%;
+}
+main  #Prevention #section-4 .container .steps h5{
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(117, 116, 116);
+    margin-bottom: 15px;
+}
+main  #Prevention #section-4 .container .steps a{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color:rgb(51, 51, 145);
+    margin-bottom: 25px;
+
+}
+main  #Prevention #section-4 .container .steps a:hover{
+    color: rgb(57, 57, 232);
+}
+main  #Prevention #section-4 .container .steps .icons{
+    display: flex;
+    /* width:100%; */
+    margin-top: 25px;
+    justify-content: center;
+    margin-left: 15px;
+}
+main  #Prevention #section-4 .container .steps .icons div{
+    width:16%;
+}
+
+main  #Prevention #section-4 .container .steps div  img{
+    width:60%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* =======================Treatment============================= */
+main #treatments #section-5  {
+    background-image: url(../images/header.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(39,102,187);
+}
+main #treatments #section-5 .container{
+    width: 90%;
+    margin: auto;
+}
+main #treatments #section-5 .container .row {
+    display: flex;
+    justify-content: space-around;
+    padding:35px
+}
+main #treatments #section-5 .container .row .treat{
+    width:50%;
+}
+main #treatments #section-5 .container .row .treat h5{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #57b6e6;
+    margin-left: 8px;
+}
+main #treatments #section-5 .container .row .treat h6{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: white;
+    margin-left: 8px;
+}
+main #treatments #section-5 .container .row .treat span{
+    font-weight: bold;
+    color:white;
+}
+main #treatments #section-5 .container .row .treat p{
+    color:white;
+    margin: 15px;
+}
+main #treatments #section-5 .container .row .self{
+    margin-top: 25px;
+    width:50%;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px rgb(24, 24, 94);
+    color:white;
+}
+main #treatments #section-5 .container .row .self .p9{
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+main #treatments #section-5 .container .row .self p{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+main #treatments #section-5 .container .row .self ul{
+    list-style-type: none;
+    margin-left: 15px;
+    padding: 15px;
+    margin-bottom: 25px;
+
+}
+main #treatments #section-5 .container .row .self li i{
+    margin-right: 20px;
+}
+/* =======================DO&DO-NOT============================= */
+main  #section-6{
+    background-color: rgba(247,249,254,255);
+}
+main  #section-6 .container{
+    width:90%;
+    margin: auto;
+    text-align: center;
+}
+main  #section-6 .container h5{
+    font-size: 20;
+    color:rgb(57, 57, 232);
+    margin-bottom: 15px;
+    padding: 25px;
+    /* margin-top: 25px; */
+
+}
+main  #section-6 .container h6{
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(50, 50, 146);
+    margin-bottom: 15px;
+}
+main  #section-6 .container p{
+    margin-bottom: 15px;
+}
+main  #section-6 .container .does{
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+main  #section-6 .container .does .do {
+    width:15%;
+    margin-top: 25px;
+}
+main  #section-6 .container .does .do div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+main  #section-6 .container .does .do div p{
+    margin-top: 25px;
+}
+main  #section-6 .container .does .do div i{
+    color: rgb(52, 250, 52);
+}
+main  #section-6 .container .does .do div img{
+    width:40%;
+    border: 1px solid rgb(39,102,187);
+    border-radius: 50%;
+}
+
+main  #section-6 .container .does .dont{
+    
+    width:15%;
+    margin-top: 25px;
+}
+main  #section-6 .container .does .dont div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    direction: rtl;
+}
+main  #section-6 .container .does .dont div i{
+    color: red;
+}
+main  #section-6 .container .does .dont div p{
+    margin-top: 25px;
+}
+main  #section-6 .container .does .dont div img{
+    width:40%;
+    border-radius: 50%;
+    border: 1px solid rgb(39,102,187);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+main  #section-6 .container .does  .img{
+    width:30%;
+    margin-top: 25px;
+}
+main  #section-6 .container .does  .img img{
+    width:100%;
+}
+
+/* =======================FAQ============================= */
+main  #section-7 .container{
+    width:90%;
+    margin: auto;
+    text-align: center;
+}
+main  #section-7 .container h5{
+    font-size: 20;
+    color:rgb(57, 57, 232);
+    margin-bottom: 15px;
+    padding: 25px;
+    /* margin-top: 25px; */
+
+}
+main  #section-7 .container h6{
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(50, 50, 146);
+    margin-bottom: 15px;
+}
+main  #section-7 .container .row{
+    display: flex;
+    justify-content: center;
+    
+}
+main  #section-7 .container .row .q1{
+    width: 30%;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+main  #section-7 .container .row .q1 div{
+    margin-bottom: 10px;
+    border:1px solid rgb(195, 211, 235);
+    border-radius: 15px;
+    padding:15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+main  #section-7 .container .row .q1 div:hover{
+    border:1px solid rgb(39,102,187);
+    color:rgb(39,102,187);
+    cursor: pointer;
+
+}
+main  #section-7 .container .row .q1 div p i{
+    margin-left: 25px;
+}
+main  #section-7 .container .row .q2{
+    width: 35%;
+    margin-top: 25px;
+    border:1px solid rgb(195, 211, 235);
+    border-radius: 5px;
+}
+main  #section-7 .container .row .q2 div{
+    border:1px solid rgb(195, 211, 235);
+    border-radius: 5px;
+    padding:15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color:rgb(233, 235, 240) ;
+}
+main  #section-7 .container .row .q2 div:hover{
+    border:1px solid rgb(39,102,187);
+    color:rgb(39,102,187);
+    cursor: pointer;
+}
+/* =======================NEWS============================= */
+main  #news{
+    background-color: rgba(247,249,254,255);
+}
+main  #news #section-8 .container{
+    width:90%;
+    margin: auto;
+    text-align: center;
+}
+main #news #section-8 .container h5{
+    font-size: 20;
+    color:rgb(57, 57, 232);
+    margin-bottom: 15px;
+    padding: 25px;
+    /* margin-top: 25px; */
+
+}
+main #news #section-8 .container h6{
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(50, 50, 146);
+    margin-bottom: 15px;
+}
+main #news  #section-8 .container .row{
+    display: flex;
+    justify-content: center;
+}
+
+main #news  #section-8 .container .row .card{
+    width:23%;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding:25px;
+}
+main #news  #section-8 .container .row .card img{
+    width:90%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+main #news  #section-8 .container .row .card .p10{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(117, 116, 116);
+    margin-bottom: 10px;
+}
+main #news  #section-8 .container .row .card p{
+    margin-bottom: 10px;
+}
+/* =======================FOOTER============================= */
+footer{
+    background-image: url(../images/header.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(21,28,46,255);
+}
+
+footer .container{
+    width:90%;
+    margin: auto;
+    text-align: center;
+}
+footer .container .row{
+    padding: 30px;
+    color:#bacaeb;
+}
+footer .container .row a{
+    text-decoration: none;
+    color:#bacaeb;
+}
+footer .container .row a:hover{
+    cursor: pointer;
+}
+footer .container .row .footer{
+    margin-top: 25px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+footer .container .row .footer div{
+    width:20%;
+}
+footer .container .row .footer div i:hover{
+    cursor: pointer;
+}
+footer .container .row .footer  .p11{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 25px;
+
+}
+footer .container .row .footer .first{
+    color: red;
+    font-size: 20px;
+}
+footer .container .row .footer .second{
+    color: rgb(50, 50, 146);
+    font-size: 20px;
+} 
+footer .container .row .line{
+    border: 1px solid rgb(107, 115, 136);
+    width: 100%;
+    height: 0;
+    margin: 50px 0px;
+}
+footer .container .row  .foot{
+    margin: 20px 0 ;
+    padding:20px;
+    text-align: center;
+}
+/* =======================Media-Query============================= */
+@media (max-width:1120px){
+    nav .row .nav-link{
+        display: none;
+    }
+    nav .row .bars{
+        display: block;
+    }
+    main #homes .container .row  .img{
+        margin-top: 50px;
+    }
+    main #homes .container .row  .section1 .header-row3 a{
+        margin-right:0px ;
+    }
+    main  #symptoms #section-3 .container .rows .btn3{
+        width:25%;
+        padding:0px;
+    }
+    main  #Prevention #section-4 .container  .btn2{
+        width:30%
+    }
+    main  #Prevention #section-4 .container .protect .paragraph{
+        width:40%;
+    }
+    main  #Prevention #section-4 .container .protect .img{
+        width:50%;
+    }
+}
+@media (max-width:992px){
+    main #homes .container .row{
+        flex-wrap: wrap;
+    }
+    main #homes .container .row  .img{
+        width: 70%;
+    }
+    main #homes .container .row  .section1 {
+        flex-wrap: wrap;
+    }
+    main #homes .container .row  .section1 .header-row3 a{
+        width:100%
+    }
+    main #homes .container .row  .section1 .header-row3 a{
+        width:100%;
+        
+    }
+    main #homes .container .row  .section1 .header-row3 button{
+        width:100%;
+        margin-bottom: 25px;
+    }
+    main #homes .container .row  .section1 .header-row4 .row .p1{
+        width:80%;
+    }
+    main #homes .container .row  .section1 .header-row4 .row .p2{
+        flex-wrap: wrap;
+    }
+    main #homes .container .row  .section1 {
+        text-align: center;
+        justify-content: center;
+    }
+    main #homes .container .row  .section1 .header-row1 h3{
+        margin-bottom: 15px;
+
+    }
+    main #homes .container .row  .section1 .header-row1 h4{
+        margin-bottom: 15px;
+    }
+    main #section-1 .container .row {
+        flex-wrap: wrap;
+    }
+    main #section-1 .container .row .about{
+        width:70%;
+        margin-bottom: 25px;
+    }
+    main #section-1 .container .row .second{
+        width:70%;
+        margin-bottom: 25px;
+
+    }
+    main  #spread #section-2 .container .row .card{
+        width:45%;
+    }
+    main  #symptoms #section-3 .container .row .card{
+        width:45%;
+    }
+    main  #symptoms #section-3 .container .rows{
+        flex-wrap: wrap;
+    }
+    main  #symptoms #section-3 .container .rows .fourth{
+        width:80%;
+        margin-bottom: 10px;
+    }
+    
+    
+    main  #Prevention #section-4 .container .row .card{
+        width:45%;
+    }
+    main  #Prevention #section-4 .container .row  div{
+        width:100%;
+    }
+    main  #Prevention #section-4 .container  .btn2{
+        width:45%
+    }
+    main  #symptoms #section-3 .container .rows .btn3{
+        width:40%;
+    }
+    main  #Prevention #section-4 .container .protect{
+        justify-content: center;
+    }
+    main  #Prevention #section-4 .container .rows h2{
+        text-align: center;
+    }
+    main  #Prevention #section-4 .container .protect .paragraph{
+        width:60%;
+    }
+    main  #Prevention #section-4 .container .protect .img{
+        width:50%;
+    }
+    main  #Prevention #section-4 .container .steps .icons{
+        flex-wrap: wrap;
+    }
+    main  #Prevention #section-4 .container .steps .icons div{
+        width:30%;
+    }
+    
+    main  #Prevention #section-4 .container .steps div  img{
+        width:60%;
+    }
+    main #treatments #section-5 .container .row {
+        flex-wrap: wrap;
+    }
+    main #treatments #section-5 .container .row .treat{
+        width:60%;
+    }
+    main #treatments #section-5 .container .row .self{
+        width:60%;
+    }
+    main  #section-6 .container .does{
+        flex-wrap: wrap;
+    }
+    main  #section-6 .container .does .do{
+        width:80%;
+        display: flex;
+        flex-direction: row;
+
+    }
+    main  #section-6 .container .does .dont{
+        width:80%;
+        display: flex;
+        flex-direction: row;
+
+    }
+    main  #section-6 .container .does .img{
+        width:30%;
+    }
+    main  #section-6 .container .does .dont div{
+        direction: ltr;
+    }
+    main  #section-7 .container .row .q1{
+        width: 60%;
+    }
+    main  #section-7 .container .row .q2{
+        width: 60%;
+    }
+    main #news  #section-8 .container .row{
+        flex-wrap: wrap;
+    }
+    
+    main #news  #section-8 .container .row .card{
+        width:35%;
+    }
+}
+@media (max-width:780px){
+    main  #spread #section-2 .container .row button{
+        width:55%;
+    }
+    
+    
+    main  #Prevention #section-4 .container .fifth{
+        width:80%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    main  #Prevention #section-4 .container .row .fifth .card{
+        width:60%;
+        
+    }
+    main  #Prevention #section-4 .container  .btn2{
+        width:60%
+    }
+    main  #Prevention #section-4 .container .steps .icons div{
+        width:50%;
+    }
+    main #treatments #section-5 .container .row .treat{
+        width:70%;
+    }
+    main #treatments #section-5 .container .row .self{
+        width:70%;
+    }
+    main  #section-6 .container .does .do{
+        width:50%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    main  #section-6 .container .does .dont{
+        width:50%;
+        display: flex;
+        flex-direction: column;
+    }
+    main  #section-6 .container .does .img{
+        width:70%;
+    }
+    main  #section-7 .container .row{
+        flex-wrap: wrap;
+    }
+    main  #section-7 .container .row .q1{
+        width: 80%;
+    }
+    main  #section-7 .container .row .q2{
+        width: 80%;
+    }
+    main #news  #section-8 .container .row .card{
+        width:55%;
+    }
+    footer .container .row .footer{
+        flex-wrap: wrap;
+    }
+    footer .container .row .footer div{
+        width:45%;
+        margin-bottom: 25px;
+    }
+}
+
+
+@media (max-width:576px){
+    nav .container{
+        width:100%;
+        padding:0px 15px;
+        margin:auto;
+    }
+    main #homes .container{
+        width:100%;
+        padding:0px 15px;
+        margin:auto;
+    }
+    main #homes .container .row  .img{
+        width: 80%;
+    }
+    main #homes .container .row  .section1 {
+        margin-top:80px;
+    }
+    main #section-1 .container{
+        width:100%;
+        padding:0px 15px;
+        margin:auto;
+    }
+    main #section-1 .container .row .about{
+        width:90%;
+    }
+    main #section-1 .container .row .second{
+        width:90%;
+    }
+    main  #spread #section-2 .container{
+        width:100%;
+        padding:0px 15px;
+        margin:auto;
+    }
+    main #symptoms #section-3 .container{
+        width:100%;
+        padding:0px 15px;
+        margin:auto;
+    }
+    main #Prevention #section-4 .container{
+        width:100%;
+        padding:0px 15px;
+        margin:auto;
+    }
+    main  #spread #section-2 .container .row .card{
+        width:70%;
+    }
+    main  #spread #section-2 .container .row button{
+        width:60%;
+    }
+    main  #symptoms #section-3 .container .row .card{
+        width:80%;
+    }
+    main  #Prevention #section-4 .container .row .card{
+        width:80%;
+    }
+    main  #Prevention #section-4 .container  .btn2{
+        width:80%
+    }
+    main  #symptoms #section-3 .container .rows .btn3{
+        width:80%;
+        padding:20px
+    }
+    main  #Prevention #section-4 .container .protect .paragraph{
+        width:80%;
+    }
+    main  #Prevention #section-4 .container .protect .img{
+        width:70%;
+    }
+    main  #Prevention #section-4 .container .steps .icons div{
+        width:70%;
+    }
+    main #treatments #section-5 .container{
+        width:100%;
+        padding:0px 15px;
+        margin:auto;
+    }
+    main #treatments #section-5 .container .row .treat{
+        width:80%;
+    }
+    main #treatments #section-5 .container .row .self{
+        width:80%;
+    }
+    main  #section-6 .container{
+        width:100%;
+        padding:0px 15px;
+        margin:auto;
+    }
+    main  #section-6 .container .does .do{
+        width:70%;
+    }
+    main  #section-6 .container .does .dont{
+        width:70%;
+    }
+    main  #section-6 .container .does .img{
+        width:80%;
+    }
+    main  #section-7 .container{
+        width:100%;
+        padding:0px 15px;
+        margin:auto;
+    }
+    main  #section-7 .container .row .q1{
+        width: 90%;
+    }
+    main  #section-7 .container .row .q2{
+        width: 90%;
+    }
+    main #news  #section-8 .container{
+        width:100%;
+        padding:0px 15px;
+        margin:auto;
+    }
+    main #news  #section-8 .container .row .card{
+        width:80%;
+    }
+    footer .container{
+        width:100%;
+        padding:0px 15px;
+        margin:auto;
+    }
+    footer .container .row .footer div{
+        width:60%;
+        
+    }
+}
+
