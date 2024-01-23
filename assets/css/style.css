@@ -27,7 +27,7 @@ nav .row .logo{
     font-weight: 700;
     font-size: 20px;
     font-family: 'Asap', sans-serif;
-    color:black
+    color:black;
 }
 nav .row .logo .first {
     color: rgb(51, 51, 145);
@@ -41,6 +41,9 @@ nav .row .bars{
 nav .row  .nav-link ul{
     display: flex;
     list-style-type: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 nav .row  .nav-link ul li{
     padding:10px;
@@ -840,6 +843,7 @@ main  #section-7 .container .row .q1 div:hover{
 main  #section-7 .container .row .q1 div p i{
     margin-left: 25px;
 }
+
 main  #section-7 .container .row .q2{
     width: 35%;
     margin-top: 25px;
@@ -861,6 +865,7 @@ main  #section-7 .container .row .q2 div:hover{
     color:rgb(39,102,187);
     cursor: pointer;
 }
+
 /* =======================NEWS============================= */
 main  #news{
     background-color: rgba(247,249,254,255);
@@ -981,10 +986,30 @@ footer .container .row  .foot{
 /* =======================Media-Query============================= */
 @media (max-width:1120px){
     nav .row .nav-link{
-        display: none;
+        height: 0px;
+        width:100%;
+        text-align: center;
+        overflow: hidden;
+        transition: all 1s;
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -ms-transition: all 1s;
+        -o-transition: all 1s;
+}
+    nav .row .nav-link ul{
+        display: block;
+        justify-content: center;
     }
     nav .row .bars{
         display: block;
+    }
+    nav .row .logo{
+        width:25%
+    }
+    nav .row  .nav-link ul  .btn1 {
+        width:25%;
+        display: inline-block;
+        align-items: center;
     }
     main #homes .container .row  .img{
         margin-top: 50px;
@@ -1007,6 +1032,9 @@ footer .container .row  .foot{
     }
 }
 @media (max-width:992px){
+    nav .row .logo{
+        width:30%
+    }
     main #homes .container .row{
         flex-wrap: wrap;
     }
@@ -1150,6 +1178,9 @@ footer .container .row  .foot{
     }
 }
 @media (max-width:780px){
+    nav .row .logo{
+        width:40%
+    }
     main  #spread #section-2 .container .row button{
         width:55%;
     }
@@ -1213,6 +1244,14 @@ footer .container .row  .foot{
 
 
 @media (max-width:576px){
+    nav .row  .nav-link ul  .btn1 {
+        width:35%;
+        
+    }
+    nav .row .logo{
+        width:60%;
+        
+    }
     nav .container{
         width:100%;
         padding:0px 15px;
@@ -1337,4 +1376,12 @@ footer .container .row  .foot{
         
     }
 }
-
+@media (max-width:482px){
+    nav .row .logo{
+        width:100%;
+        
+    }
+    nav .row  .nav-link ul  .btn1 {
+        width:50%;
+    }
+}
